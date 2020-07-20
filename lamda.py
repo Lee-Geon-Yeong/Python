@@ -1,6 +1,6 @@
-def total(s, b):
- return s + b
+lambda x: x + 1
+def increase(x):
+ return x + 1
 score = [ 45, 89, 72, 53, 94 ]
-bonus = [2, 3, 0, 0, 5]
-for s in map(total, score, bonus):
- print(s, end = ", ")
+for s in filter(lambda x: x < 60, score):
+ print(s)
