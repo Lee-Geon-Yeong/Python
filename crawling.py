@@ -1,5 +1,5 @@
-import urllib.request
-import json
+import urllib.request 
+import json 
 
 client_id = "rOc74uqftZkAWrS9HBLS"
 client_secret = "Q7Q17I1bOs"
